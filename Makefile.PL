@@ -3,7 +3,7 @@ use inc::Module::Install;
 name         'Sisyphus-HTTP-Proto';
 author       'Joshua Thayer <joshuamilesthayer@gmail.com>';
 perl_version '5.005';
-all_from     'lib/Sisyphus/Proto/HTTPpm';
+all_from     'lib/Sisyphus/Proto/HTTP.pm';
 
 build_requires 'Test::More';
 requires	'EV'		=> '3.8';
